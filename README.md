@@ -89,5 +89,44 @@ The **Glass Identification dataset** contains 214 instances with 9 chemical feat
    ```bash
    python main.py
 
+## Results
 
-   
+Each classifier script outputs:
+- Training and testing time
+- Accuracy percentage
+- Confusion matrix
+- Best parameters from grid search (where applicable)
+- Feature selection results
+
+Example output from Decision Tree:
+The Decision Tree implementation
+Train/Test split: 60 / 40
+Time to train: 0.045 seconds
+Time to test: 0.001 seconds
+Accuracy: 72.09%
+Confusion Matrix:
+[[21 1 2 0 0 0]
+[ 7 0 0 0 0 0]
+[ 1 0 7 0 0 0]
+[ 0 0 0 3 0 0]
+[ 0 0 0 0 3 1]
+[ 0 0 0 0 1 7]]
+Best Score: 74.42% Using Max Depth 50 & Number of Buckets 6 & Minimum Samples in Node 3 & Minimum impurity 0.01
+
+## Dependencies
+
+- Python 3.x
+- NumPy
+- pandas
+- scikit-learn
+- matplotlib (for visualization in main.py)
+- seaborn (for visualization in main.py)
+
+## Contributing
+
+Contributions are welcome! Here's how:
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/your-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin feature/your-feature`)
+5. Open a Pull Request
