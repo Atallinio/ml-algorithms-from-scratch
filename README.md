@@ -99,8 +99,9 @@ Each classifier script outputs:
 - Feature selection results
 
 Example output from Decision Tree:
+```
 The Decision Tree implementation
-Train/Test split: 60 / 40
+Train/Test split: 60 / 40 
 Time to train: 0.045 seconds
 Time to test: 0.001 seconds
 Accuracy: 72.09%
@@ -112,6 +113,7 @@ Confusion Matrix:
 [ 0 0 0 0 3 1]
 [ 0 0 0 0 1 7]]
 Best Score: 74.42% Using Max Depth 50 & Number of Buckets 6 & Minimum Samples in Node 3 & Minimum impurity 0.01
+```
 
 ## Dependencies
 
